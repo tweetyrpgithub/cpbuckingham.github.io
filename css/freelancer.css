@@ -457,3 +457,7 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+.modal.fade.in {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}

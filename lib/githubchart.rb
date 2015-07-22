@@ -92,5 +92,5 @@ class Integer
   end
 end
 
-require 'githubchart/version'
-require 'githubchart/svg'
+require 'lib/version'
+require 'lib/svg'

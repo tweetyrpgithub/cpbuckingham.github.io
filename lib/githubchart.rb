@@ -40,9 +40,8 @@ module GithubChart
   ##
   # Color schemes for gradient
   COLOR_SCHEMES = {
-    default: ['#eeeeee', '#d6e685', '#8cc665', '#44a340', '#1e6823'],
-    halloween: ['#EEEEEE', '#FFEE4A', '#FFC501', '#FE9600', '#03001C'],
-    custom: ['#EEEEEE','#8ED7C4','#18BC9C','#2D828D','#2C3E50' ]
+    default: 
+
   }
 
   ##
@@ -93,5 +92,5 @@ class Integer
   end
 end
 
-require '../lib/version'
-require '../lib/svg'
+require 'githubchart/version'
+require 'githubchart/svg'
